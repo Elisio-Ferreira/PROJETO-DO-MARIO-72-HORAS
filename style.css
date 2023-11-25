@@ -1,0 +1,154 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@400;600;700&display=swap');
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family : 'Tourney', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+.logo-mario {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.imagem-mario-luigi {
+    height: 70vh;
+    margin-left:3vw;
+}
+
+.caixa-principal {
+    width: 40%;
+}
+
+.caixa-video-mario {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: none;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.mascara-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+   height: 100%;
+    z-index: -1;
+   
+    background: linear-gradient(109deg, rgba(10,12,16, 0.99) 15%, rgba(10,12,16, 0.7) 50%, rgba(10,12,16, 099)85%);
+    
+}  
+
+
+p {
+    
+    color: white;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+button {
+    height: 40px;
+    width: 200px;
+    background: #c51111;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Mukta', sans-serif;
+}
+.fale-conosco{
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+    border-radius: 15px;
+    
+    gap: 20px;
+    position: fixed;
+    left: -335px;
+    transition: left 2s linear;
+    z-index:2;
+}
+
+
+.titulo-fale-conosco{
+   color: #ffffff;
+    
+    font-size: 22px;
+    
+   margin-bottom: 50px;
+}
+
+.logo-form{
+    
+    height: 10vh;
+   
+    
+}
+.elementos-form{
+    
+    position: absolute;
+    right: 20px;
+    top: 20px;
+   
+
+
+}
+
+input{
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    outline-color: chartreuse;
+    
+}
+textarea{
+    height: 100px;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 10px;
+    outline-color: chartreuse;
+  
+}
+.mascara-form{
+    
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+   
+    background: linear-gradient(109deg, rgba(10,12,16, 0.99) 15%, rgba(10,12,16, 0.7) 50%, rgba(10,12,16, 099)85%);
+}

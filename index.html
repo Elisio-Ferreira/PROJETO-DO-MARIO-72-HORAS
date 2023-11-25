@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="img/logo mario.png" type="image/x-icon">
+    
+
+    <title>Mario & Luigi</title>
+</head>
+
+<body>
+
+    <div class="video-mario">
+
+        <video src="img/video.mp4" autoplay muted loop></video>
+
+        <div class="mascara-video"></div>
+
+    </div>
+   
+   
+
+    </man>
+    <div class="caixa-principal">
+
+        <img class="logo-mario" src="img/logo mario.png " alt="logo">
+
+        <h1 style="color: green;">Mario & Luigi</h1>
+        <div class="caixa-paragrafos">
+        
+            <p >
+                Encanadores Mario & Luigi - Resolvendo Seus Problemas Com Estilo!
+            </p>
+            <br>
+            <p >
+                Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos entupidos
+                ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos a
+                vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
+            </p>
+            
+            
+        </div>
+        <button class="button1" onclick="cliqueiNobotao()">Fale Conosco</button>
+    </div>
+
+   
+        <img class="imagem-mario-luigi" src="img/mario-luigi.png" alt="mario e luigi">
+
+    
+
+    <form action="https://formsubmit.co/veterano_do_futsal@hotmail.com" 
+    method="post" 
+    class="fale-conosco">
+        
+    <h1 class="titulo-fale-conosco">Fale Conosco</h1>
+    
+    <div class="elementos-form">
+         <div> <img class="logo-form" style="width: 150px; " 
+                 src="img/logo mario.png" 
+                 alt="">
+                </div>
+    </div>
+
+        <input name="nome" type="text" placeholder="Seu Nome">
+        <input name="telefone" type="tel" placeholder="Telefone">
+        <textarea name="texto" placeholder="digite seu problema aqui"></textarea>
+        <button type="submit" class="button2" onclick="EnviarAgradecido()"  >ENVIAR</button>
+
+        <div class="mascara-form"></div>
+    </form>
+
+
+
+    
+       
+</body>
+
+
+<script>
+    
+
+     
+    let formulario = document.querySelector(".fale-conosco")
+    let mascara = document.querySelector(".mascara-form")
+
+    
+
+    console.log("formulario")
+    console.log("mascara")
+
+    
+
+    function cliqueiNobotao(){
+        formulario.style.left = "790px"
+        mascara.style.visibility = "visible"
+        
+        console.log("opa cliquei no botao do formulario")
+    }
+
+    function EnviarAgradecido(){
+        formulario.style.left = "-335px"
+
+        formulario.style.transition = "0s"
+
+        mascara.style.visibility = "hidden"
+
+    
+        console.log("opa cliquei no botao enviar")
+        
+}
+    
+    </script>
+
+</html>
