@@ -70,7 +70,10 @@ p {
     margin-top: 10px;
     font-size: 17px;
 }
-
+button:hover {
+    color: #fff;
+    background:green ;
+}
 button {
     height: 40px;
     width: 200px;
